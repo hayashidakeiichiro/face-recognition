@@ -19,6 +19,11 @@
 		8206D68C280BFF19007964B1 /* Lcamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8206D68B280BFF19007964B1 /* Lcamera.swift */; };
 		8206D68E280C006B007964B1 /* test2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8206D68D280C006B007964B1 /* test2.mlmodel */; };
 		8206E76F280D3FF600F484F9 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 8206E76E280D3FF600F484F9 /* frame.png */; };
+		824319D72813BCCD00765071 /* inout.png in Resources */ = {isa = PBXBuildFile; fileRef = 824319D62813BCCD00765071 /* inout.png */; };
+		824319DD2813D67D00765071 /* Timg.png in Resources */ = {isa = PBXBuildFile; fileRef = 824319DC2813D67D00765071 /* Timg.png */; };
+		828338C52814111F0008D812 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 828338C42814111F0008D812 /* face.png */; };
+		8294368B28127BB3000E46B5 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8294368A28127BB3000E46B5 /* AttendanceViewController.swift */; };
+		8294368D28128CF2000E46B5 /* EditlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8294368C28128CF2000E46B5 /* EditlistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,11 @@
 		8206D68B280BFF19007964B1 /* Lcamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lcamera.swift; sourceTree = "<group>"; };
 		8206D68D280C006B007964B1 /* test2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = test2.mlmodel; sourceTree = "<group>"; };
 		8206E76E280D3FF600F484F9 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		824319D62813BCCD00765071 /* inout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inout.png; sourceTree = "<group>"; };
+		824319DC2813D67D00765071 /* Timg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Timg.png; path = ../../../../Downloads/Timg.png; sourceTree = "<group>"; };
+		828338C42814111F0008D812 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = ../../../../Downloads/face.png; sourceTree = "<group>"; };
+		8294368A28127BB3000E46B5 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
+		8294368C28128CF2000E46B5 /* EditlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditlistViewController.swift; sourceTree = "<group>"; };
 		8E3DDB85A631CCF419EC523E /* Pods-Face recognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Face recognition.release.xcconfig"; path = "Target Support Files/Pods-Face recognition/Pods-Face recognition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +100,8 @@
 		8206D672280BD86F007964B1 /* Face recognition */ = {
 			isa = PBXGroup;
 			children = (
+				8294368C28128CF2000E46B5 /* EditlistViewController.swift */,
+				8294368A28127BB3000E46B5 /* AttendanceViewController.swift */,
 				8206D673280BD86F007964B1 /* AppDelegate.swift */,
 				8206D675280BD86F007964B1 /* SceneDelegate.swift */,
 				8206D677280BD86F007964B1 /* ViewController.swift */,
@@ -100,6 +112,9 @@
 				8206D67C280BD871007964B1 /* Assets.xcassets */,
 				8206D67E280BD871007964B1 /* LaunchScreen.storyboard */,
 				8206E76E280D3FF600F484F9 /* frame.png */,
+				828338C42814111F0008D812 /* face.png */,
+				824319DC2813D67D00765071 /* Timg.png */,
+				824319D62813BCCD00765071 /* inout.png */,
 				8206D68D280C006B007964B1 /* test2.mlmodel */,
 				8206D681280BD871007964B1 /* Info.plist */,
 			);
@@ -168,8 +183,11 @@
 			files = (
 				8206D680280BD871007964B1 /* LaunchScreen.storyboard in Resources */,
 				8206E76F280D3FF600F484F9 /* frame.png in Resources */,
+				824319DD2813D67D00765071 /* Timg.png in Resources */,
 				8206D67D280BD871007964B1 /* Assets.xcassets in Resources */,
 				8206D67B280BD86F007964B1 /* Main.storyboard in Resources */,
+				824319D72813BCCD00765071 /* inout.png in Resources */,
+				828338C52814111F0008D812 /* face.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,8 +245,10 @@
 				8206D688280BEB47007964B1 /* faceViewController.swift in Sources */,
 				8206D674280BD86F007964B1 /* AppDelegate.swift in Sources */,
 				8206D68A280BFF02007964B1 /* LViewController.swift in Sources */,
+				8294368D28128CF2000E46B5 /* EditlistViewController.swift in Sources */,
 				8206D676280BD86F007964B1 /* SceneDelegate.swift in Sources */,
 				8206D68C280BFF19007964B1 /* Lcamera.swift in Sources */,
+				8294368B28127BB3000E46B5 /* AttendanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,14 +407,15 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "k.h.Face-recognition";
+				PRODUCT_BUNDLE_IDENTIFIER = "k.h.Face-recognition2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,14 +442,15 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "k.h.Face-recognition";
+				PRODUCT_BUNDLE_IDENTIFIER = "k.h.Face-recognition2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
